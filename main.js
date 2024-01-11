@@ -1,10 +1,10 @@
 function checkDate(d) {
   console.log("checkDate(d) - begin");
-  const dataInputField = document.getElementById("inputDate");
+  const dateResult = document.getElementById("isDate");
   if (d instanceof Date) {
-    dataInputField.style.color = "green";
+    dateResult.value = "Yes";
   } else {
-    dataInputField.style.color = "red";
+    dateResult.value = "no";
   }
   console.log("checkDate(d) - end");
 }
