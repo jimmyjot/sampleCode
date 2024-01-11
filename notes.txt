@@ -1,0 +1,3 @@
+How to use multiple js files: make a library that contains several utility functions?
+How to initially clear fields
+How to change format of dates
