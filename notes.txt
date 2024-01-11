@@ -1,3 +1,25 @@
 How to use multiple js files: make a library that contains several utility functions?
 How to initially clear fields
 How to change format of dates
+
+Ctrl-f5 clears the cache
+
+Changes to code:
+input then type and ID
+prefix ID, class, etc.
+
+Start events with underscore (onClick)
+
+Get date in text format
+
+Input Date | enter date [Set date]
+[input date] [value of date]
+
+Get value of [input date] and print it
+Use text input and date input
+enter text, confirm that it is a date, confirm actual date, print value
+
+.js folder
+    utildate.js
+    utilstring.js
+    utillog.js

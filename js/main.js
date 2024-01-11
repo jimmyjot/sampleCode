@@ -1,7 +1,15 @@
-let buttonClear = document.getElementById("clear");
+let buttonClear = document.getElementById("id_clearField");
 buttonClear.addEventListener("click", clearYesNo());
 
 let dateResult = document.getElementById("isDate");
+
+function clearYesNo(dateResult) {
+  console.log("clearYesNo - begin");
+  dateResult = document.getElementById("id_isDate");
+  dateResult.value = " ";
+  document.getElementById("id_clearField").value = buttonClear;
+  console.log("clearYesNo - end");
+}
 
 function checkDate(d) {
   console.log("checkDate(d) - begin");
@@ -11,12 +19,4 @@ function checkDate(d) {
     inputDate.style.color = "red";
   }
   console.log("checkDate(d) - end");
-}
-
-function clearYesNo(dateResult) {
-  console.log("clearYesNo - begin");
-  dateResult = document.getElementById("isDate");
-  dateResult.value = " ";
-  document.getElementById("clear").value = buttonClear;
-  console.log("clearYesNo - end");
 }
